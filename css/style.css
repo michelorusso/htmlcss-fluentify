@@ -188,10 +188,44 @@ hr {
 /*FOOTER*/
 footer {
     background-color: rgb(201, 200, 200);
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
-footer span {
+footer h4 {
     font-size: 30px;
     font-weight: 700;
+    display: inline-block
+}
+
+.box {
+    display: inline-block;
+}
+
+.box p{
+    display: inline-block;
+    color: gray;
+    font-weight: 700;
+    margin-left: 350px;
+}
+
+.box select {
+    width: 150px;
+    border: none;
+    background-color: rgb(201, 200, 200);
+    border-bottom: 1px solid grey;
+    color: grey;
+    font-size: 15px;
+    font-weight: 700;
+    margin:0 20px;
+}
+
+.b-special {
+    position: fixed;
+    bottom: 0;
+    right: 200px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: yellowgreen;
+    border-radius: 5px;
 }
