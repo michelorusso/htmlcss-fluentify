@@ -133,13 +133,13 @@ h1 {
 }
 .col-center {
     width: 30%;
-    margin: 5% 5% ;
+    margin: 4% 5% ;
 }
 
 .col-right, 
 .col-left {
     width: 30%;
-    margin: 5% 0;
+    margin: 4% 0;
 }
 
 
@@ -163,7 +163,24 @@ h1 {
 .col p {
     color: gray;
     font-size: 17px;
-    margin: 20px 0;;
+    margin: 20px 0;
 }
 
+hr {
+    width: 97%;
+    margin: auto;
+}
 /*English Level*/
+.c-left,
+.c-right {
+    width: 40%;
+    margin: 25px 5%;
+}
+
+.c-right h2 {
+    font-size: 30px;
+}
+
+.c-right a {
+    color: blue;
+}
