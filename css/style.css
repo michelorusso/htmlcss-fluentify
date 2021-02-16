@@ -184,3 +184,14 @@ hr {
 .c-right a {
     color: blue;
 }
+
+/*FOOTER*/
+footer {
+    background-color: rgb(201, 200, 200);
+    padding: 40px 0;
+}
+
+footer span {
+    font-size: 30px;
+    font-weight: 700;
+}
