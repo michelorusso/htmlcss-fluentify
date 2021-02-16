@@ -127,7 +127,7 @@ h1 {
     font-weight: 400;
 }
 
-/*body main*/
+/*Body Main*/
 .info {
     text-align: center;
 }
@@ -137,7 +137,7 @@ h1 {
 }
 
 .col-right, 
-.col-left{
+.col-left {
     width: 30%;
     margin: 5% 0;
 }
@@ -149,4 +149,21 @@ h1 {
     margin: auto;
 }
 
+.title-class {
+    color: yellowgreen;
+    font-size: 25px;
+    margin: 20px 0;
+}
 
+.col hr {
+    width: 60px;
+    margin: auto;
+}
+
+.col p {
+    color: gray;
+    font-size: 17px;
+    margin: 20px 0;;
+}
+
+/*English Level*/
