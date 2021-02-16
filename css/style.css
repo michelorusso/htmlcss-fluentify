@@ -29,11 +29,11 @@ img {
     border-radius: 5px;
 }
 
-/*HEADER*/
 .col {
     float: left;
 }
 
+/*HEADER*/
 header {
     height: 550px;
     background-color: #0d325a;
@@ -52,11 +52,12 @@ header {
     padding: 15px 0;
 }
 
-/*NAV*/
+/*nav*/
 .logo {
     width: 10%;
 }
 
+/*menu/link*/
 .menu-center {
     width: 50%;
     padding-top: 12px;
@@ -100,7 +101,7 @@ header {
     color: yellow;
 }
 
-/*TITLE PAGE*/
+/*title page*/
 .title {
     margin-top: 14%;
 }
@@ -111,3 +112,41 @@ h1 {
     color: white;
     margin: 50px 0;
 }
+
+/*MAIN*/
+.subtitle {
+    background-color: rgb(201, 200, 200);
+    text-align: center;
+    font-weight: 400;
+    padding: 40px 0;
+}
+
+.subtitle h4 {
+    margin-top: 10px;
+    color: rgb(114, 112, 112);
+    font-weight: 400;
+}
+
+/*body main*/
+.info {
+    text-align: center;
+}
+.col-center {
+    width: 30%;
+    margin: 5% 5% ;
+}
+
+.col-right, 
+.col-left{
+    width: 30%;
+    margin: 5% 0;
+}
+
+
+.pictures img {
+    height: 150px;
+    text-align: center;
+    margin: auto;
+}
+
+
