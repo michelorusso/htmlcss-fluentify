@@ -1,5 +1,113 @@
+/*RESET*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*COMMON*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    background-color: yellowgreen;
+    border-radius: 5px;
+}
+
+/*HEADER*/
+.col {
+    float: left;
+}
+
+header {
+    height: 550px;
+    background-color: #0d325a;
+    background-image: url(../img/background-header.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 125% 110%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.pad-header {
+    padding: 15px 0;
+}
+
+/*NAV*/
+.logo {
+    width: 10%;
+}
+
+.menu-center {
+    width: 50%;
+    padding-top: 12px;
+    margin-left: 50px;
+}
+
+.menu-button {
+    width: 35%;
+    padding-top: 12px;
+    text-align: right;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.login {
+    border: 1px solid white;
+    padding: 7px 25px;
+    border-radius: 5px;
+}
+
+.st-plan {
+    padding: 7px 12px;
+    border-radius: 5px;
+    background-color: yellowgreen;
+}
+
+.menu-center li a:hover {
+    color: yellow;
+}
+
+/*TITLE PAGE*/
+.title {
+    margin-top: 14%;
+}
+
+h1 {
+    width: 50%;
+    font-size: 48px;
+    color: white;
+    margin: 50px 0;
 }
